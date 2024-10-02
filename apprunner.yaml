@@ -1,0 +1,12 @@
+version: 1.0
+runtime: go1
+build:
+  commands:
+    build:
+      - go build ./
+run:
+  runtime-version: 1.22.2
+  command: ./hello_backend
+  network:
+    port: 8888
+    env: APP_PORT
