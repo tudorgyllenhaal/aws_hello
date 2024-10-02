@@ -5,7 +5,7 @@ build:
     build:
       - go build ./
 run:
-  runtime-version: 1.22.2
+  runtime-version: 1.18.10
   command: ./hello_backend
   network:
     port: 8888
