@@ -8,7 +8,7 @@ import (
 
 func register(r *server.Hertz) {
 	customizeRegister(r)
-	r.GET("/ping", service.Ping)
+	r.GET("/", service.Ping)
 }
 
 func customizeRegister(r *server.Hertz) {
