@@ -1,4 +1,4 @@
-package hello_backend
+package main
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"

@@ -1,4 +1,4 @@
-package hello_backend
+package main
 
 import (
 	"learning/hello_backend/service"
